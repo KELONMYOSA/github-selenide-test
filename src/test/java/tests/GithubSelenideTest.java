@@ -13,7 +13,7 @@ public class GithubSelenideTest {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = "https://github.com/";
+        Configuration.baseUrl = "https://github.com";
         Configuration.browserSize = "1920x1080";
     }
 
